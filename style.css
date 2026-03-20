@@ -1,0 +1,164 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  padding: 20px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  padding: 5px 40px;
+  
+
+    
+  background: #f4f6f9;
+  
+}
+
+/* form box */
+.form-box {
+
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+}
+.form_h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:  #4a90e2;
+}
+/* INPUT FIELDS */
+form input {
+  width: 30%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.4);
+}
+
+/* ADD / UPDATE BUTTON */
+#btn {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn:hover {
+  background: #357ac9;
+}
+
+/* TABLE */
+.card_table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.card_table th {
+  background: #4a90e2;
+  color: white;
+  padding: 12px;
+  border-radius: 4px 4px 0 0;
+}
+
+.card_table td,
+.card_table th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ROW COLORS */
+.card_table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* BUTTONS IN TABLE */
+.edit-btn,
+.delete_btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background: #f1c40f;
+  color: black;
+}
+
+.edit-btn:hover {
+  background: #d4ac0d;
+}
+
+.delete_btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete_btn:hover {
+  background: #c0392b;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  margin: 0 3px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #4a90e2;
+  color: white;
+}
+
+.pagination button.active {
+  background: #4a90e2;
+  color: white;
+  font-weight: bold;
+}
+.table_name{
+  width: 30%;
+}
+.table_dept{
+  width: 20%;
+}
+.table_no{
+  width: 5%;
+}
